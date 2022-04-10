@@ -12,50 +12,50 @@
     <header class="header" id="header">
         <nav class="nav" id="nav">
             <a href="./index.html" class="logo">Fier Movies</a>
-            <div class="navbar">
-                <ul class="list">
+            <div class="nav-menu">
+                <ul class="nav-list">
                     <li class="list-item">
-                        <a href="" class="list-link current">Home</a>
+                        <a href="#home" class="list-link current">Home</a>
                     </li>
                     <li class="list-item">
-                        <a href="" class="list-link ">Trending</a>
+                        <a href="#trending" class="list-link">Trending</a>
                     </li>
                     <li class="list-item">
-                        <a href="" class="list-link ">Critically Acclaimed Films</a>
+                        <a href="#critic" class="list-link">Critically Acclaimed Films</a>
                     </li>
                     <li class="list-item">
-                        <a href="" class="list-link ">TV Series</a>
+                        <a href="" class="list-link">TV Series</a>
                     </li>
                     <li class="list-item lg-screen-hidden">
-                        <a href="" class="list-link ">Sign in</a>
+                        <a href="" class="list-link">Sign in</a>
                     </li>
                     <li class="list-item lg-screen-hidden">
-                        <a href="" class="list-link ">Sign up</a>
+                        <a href="" class="list-link">Sign up</a>
                     </li>
                 </ul>
             </div>
             <div class="user-login">
-                <ul class="list">
+                <ul class="nav-list">
                     <a href="#" class="sm-screen-hidden">Sign in</a>
                     <a href="#" class="sm-screen-hidden">Sign up</a>
                 </ul>
             </div>
-            <div class="menu-toggle-icon lg-screen-hidden center-items" id="menu-toggle-icon">
+            <div class="menu-toggle-icon lg-screen-hidden" id="menu-toggle-icon">
                 <i class="ri-menu-3-line menu-open-icon"></i>
                 <i class="ri-close-fill menu-close-icon"></i>
             </div>
         </nav>
     </header>
     <!-- Banner -->
-    <section class="banner section">
+    <section class="banner section" id="home">
         <div class="banner-data">
             <h1 class="banner-title">The Batman</h1>
             <div class="banner-buttons">
-                <button class="btn play-button center-items">
-                    <span>Play</i></span>
+                <button class="btn play-button">
+                    <span>Play</span>
                     <i class="ri-play-line"></i>
                 </button>
-                <button class="btn info-button center-items">
+                <button class="btn info-button">
                     <span>Info</span>
                     <i class="ri-information-line"></i>
                 </button>
@@ -68,32 +68,38 @@
     </section>
 
     <!-- Trending -->
-    <section class="trending section">
+    <section class="trending section" id="trending">
         <div class="trending-container container">
             <h2 class="section-title trending-title" data-name="Trending">Trending</h1>
-            <div class="five-cards">
-                <div class="card card-1">
-                    <span class="trending-number center-items" >1</span>
+            <ul class="five-cards">
+                <li class="card card-1">
+                    <span class="trending-number" >1</span>
                     <img src="/images/thebatman_card.jpg" alt="">
-                </div>
-                <div class="card card-2">
-                    <span class="trending-number center-items" >2</span>
+                </li>
+                <li class="card card-2">
+                    <span class="trending-number" >2</span>
                     <img src="/images/The Dark Knight.jpg" alt="">
-                </div>
-                <div class="card card-3">
-                    <span class="trending-number center-items">4</span>
+                </li>
+                <li class="card card-3">
+                    <span class="trending-number">4</span>
                     <img src="/images/moon_knight.jpg" alt="">
-                </div>
-                <div class="card card-4">
-                    <span class="trending-number center-items">5</span>
+                </li>
+                <li class="card card-4">
+                    <span class="trending-number">5</span>
                     <img src="/images/peace_maker.jpg" alt="">
-                </div>
-                <div class="card card-5">
-                    <span class="trending-number center-items" >6</span>
+                </li>
+                <li class="card card-5">
+                    <span class="trending-number" >6</span>
                     <img src="/images/spiderman_poster.jpg" alt="">
-                </div>
+                </li>
             </div>
         </div>
+    </section>
+    <section class="critic section" id="critic">
+        <div class="critic-container container">
+            <h2 class="section-title" data-name="Critically Acclaimed Films">Critically Acclaimed Films</h1>
+        </div>
+
     </section>
     <section class="space"></section>
     <footer>
