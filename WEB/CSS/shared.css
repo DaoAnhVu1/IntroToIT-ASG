@@ -1,0 +1,105 @@
+@import url('https://fonts.googleapis.com/css2?family=Poppins:wght@300;400;600;700&display=swap');
+/* Base */
+*, 
+*::after, 
+*::before {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+html {
+    font-size: 62.5%;
+    scroll-behavior: smooth;
+}
+
+body {
+    font-size: 1.6rem;
+    background-color: #131417;
+    color: #fff;
+    font-family: 'Poppins', sans-serif;
+}
+
+a {
+    color: #fff;
+    text-decoration: none;
+}
+
+ul {
+    list-style: none;
+}
+
+img {
+    display: block;
+    max-width: 100%;
+}
+
+i {
+    font-size: 2rem;
+}
+
+/* Reusable classes */
+.container {
+    max-width: 160rem;
+    margin: 0 auto;
+    padding: 0 4rem;
+}
+
+.center-items {
+    display: flex;
+    text-align: center;
+    justify-content: center;
+}
+
+.lg-screen-hidden {
+    display: none !important;
+}
+
+.section {
+    margin-top: 8rem;
+}
+
+.btn {
+    cursor: pointer;
+    color: #fff;
+    background-color: rgba(51, 51, 51, 0.5);
+    outline: none;
+    border: none;
+    font-weight: bold;
+    border-radius: .5rem;
+    padding: 1rem;
+    gap: 1rem;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.btn:hover {
+    color: #000;
+    background-color: #e6e6e6;
+    transition: all 0.2s;
+}
+
+.section-title{
+    position: relative;
+    font-size: 3.6rem;
+    margin-bottom: 5rem;
+}
+
+.section-title::after{
+    content: attr(data-name);
+    font-size: 3.6rem;
+    text-transform: uppercase;
+    opacity: .1;
+    position: absolute;
+    top: 1.5rem;
+    left: 2rem;
+}
+
+.fade-away {
+    position: absolute;
+    bottom: 0;
+    background-image: linear-gradient(180deg, transparent, rgba(37,37,37, 0.61), #111);
+    height: 7rem;
+    width: 100%;
+}
