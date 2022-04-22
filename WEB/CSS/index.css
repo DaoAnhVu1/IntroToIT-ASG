@@ -210,15 +210,20 @@ footer {
     padding-bottom: 4rem;
 }
 
-.footer-container {
-    display: grid;
-    grid-template-columns: 1fr 1fr;
-}
-
-
 .footer-list-container {
     display: grid;
-    grid-template-columns: 1fr 1fr;
+    grid-template-columns: 1fr 1fr 1fr;
+}
+
+.footer-logo-container {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin-bottom: 3rem;
+}
+
+#footer-logo {
+    font-size: 3.6rem;
 }
 
 .footer-list-item {
