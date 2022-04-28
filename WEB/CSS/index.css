@@ -167,13 +167,55 @@
 /* Award winning */
 .award-container {
     padding: 0;
+    max-height: 70rem;
 }
-.content-container,
+
+.award-container h2 {
+    padding-left: 4rem;
+}
+
 .img-container {
-    display: flex;
-    align-items: center;
-    justify-content: center;
+    max-width: 100%;
+    max-height: 100%;
 }
+
+.content-container {
+    font-size: 2.4rem;
+    flex-direction: column;
+}
+
+.star-container {
+    padding: 2rem;
+    gap: 3rem;
+    margin-bottom: 2rem ;
+}
+
+.star-img-container {
+    flex-direction: column;
+}
+
+.star-img {
+    border-radius: 50%;
+    border: 2px solid transparent;
+    transition: all 0.25s;
+}
+
+.star-img:hover {
+    cursor: pointer;
+    border-color: white;
+}
+
+.actor-name {
+    font-size: 1.6rem;
+    opacity: 0.7;
+}
+
+.movie-title {
+    font-size: 3.6rem;
+    margin-bottom: 2rem;
+}
+
+
 
 /* Customer's request */
 .cus-request-container {
