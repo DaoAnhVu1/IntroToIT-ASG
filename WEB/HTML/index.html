@@ -4,6 +4,10 @@
     <meta charset="UTF-8">
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link
+    rel="stylesheet"
+    href="https://unpkg.com/swiper@8/swiper-bundle.min.css"
+      />
     <link rel="stylesheet" href="../CSS/shared.css">
     <link rel="stylesheet" href="../CSS/index.css">
     <link href="https://cdn.jsdelivr.net/npm/remixicon@2.5.0/fonts/remixicon.css" rel="stylesheet">
@@ -106,6 +110,39 @@
     <section class="award section" id="award">
         <div class="award-container container">
             <h2 class="section-title" data-name="Award-Winning Films">Award-Winning Films</h2>
+            <!-- Slider main container -->
+            <div class="swiper">
+                <div class="swiper-wrapper">
+                    <div class="swiper-slide">
+                        <div class="img-container">
+                            <img src="../images/babydriver.jpg" alt="">
+                        </div>
+                        <div class="content-container">
+                            <p>After being coerced into working for a crime boss, a young getaway driver finds himself taking part in a heist doomed to fail. Baby is a young and partially hearing impaired getaway driver who can make any wild move while in motion with the right track playing.</p>
+                        </div>
+                    </div>
+                    <div class="swiper-slide">
+                        <div class="img-container">
+                            <img src="../images/shawshank.jpg" alt="">
+                        </div>
+                        <div class="content-container">
+                            <p>Two imprisoned men bond over a number of years, finding solace and eventual redemption through acts of common decency. Chronicles the experiences of a formerly successful banker as a prisoner in the gloomy jailhouse of Shawshank after being found guilty of a crime he did not commit.</p>
+                        </div>
+                    </div>
+                    <div class="swiper-slide">
+                        <div class="img-container">
+                            <img src="../images/thelighthouse.jpg" alt="">
+                        </div>
+                        <div class="content-container">
+                            <p>The Lighthouse is a 2019 film directed and produced by Robert Eggers, who co-wrote the screenplay with his brother, Max Eggers. Set in the 1890s, it stars Willem Dafoe and Robert Pattinson as two lighthouse keepers who descend into madness when a storm strands them on the remote island where they are stationed.</p>
+                        </div>
+                    </div>
+                </div>
+                <div class="swiper-pagination"></div>
+            
+                <div class="swiper-button-prev swiper-button"></div>
+                <div class="swiper-button-next swiper-button"></div>
+            </div>
         </div>
     </section>
     <section class="cus-request-section section" id="cus-request-section">
@@ -190,6 +227,7 @@
             </div>
         </div>
     </footer>
+    <script src="https://unpkg.com/swiper@8/swiper-bundle.min.js"></script>
     <script src="../JS/index.js"></script>
 </body>
 </html>

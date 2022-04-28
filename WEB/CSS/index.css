@@ -138,6 +138,42 @@
     transform: scale(1.08);
 }
 
+/* Swiper */
+.swiper {
+    width: 100%;
+}
+
+.swiper-slide {
+    background-color: #131417;
+    padding: 0 5rem;
+    display: grid;
+    grid-template-columns: 40rem 1fr;
+    gap: 3rem;
+}
+
+.swiper-button {
+    color: white;
+}
+
+.swiper-pagination > .swiper-pagination-bullet {
+    opacity: 1;
+    border: white solid 1px;
+    background-color: transparent;
+}
+.swiper-pagination > .swiper-pagination-bullet-active {
+    background-color: white;
+}
+
+/* Award winning */
+.award-container {
+    padding: 0;
+}
+.content-container,
+.img-container {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
 
 /* Customer's request */
 .cus-request-container {
@@ -203,6 +239,8 @@
     font-size: 2.0rem;
     border: 2px solid #afb6cd;
 }
+
+
 
 
 /* Footer */
@@ -317,3 +355,4 @@ footer {
         display: none;
     }
 }
+
