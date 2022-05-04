@@ -216,7 +216,6 @@
 }
 
 
-
 /* Customer's request */
 .cus-request-container {
     display: flex;
@@ -356,7 +355,7 @@ footer {
     }
 
     .lg-screen-hidden {
-        display: initial !important;
+        display: block !important;
     }
     
     .menu-close-icon {
@@ -382,6 +381,8 @@ footer {
         transform: translateY(-100%);
         transition: transform .25s;
     }
+    
+    
 
     /* JavaScript styles */
     .nav.active .nav-menu {
