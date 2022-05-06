@@ -43,6 +43,9 @@
     cursor: pointer;
 }
 
+.tab-content-item {
+    font-size: 1.8rem;
+}
 
 .tab-border {
     border-bottom: #fff 4px solid;
