@@ -47,6 +47,10 @@ i {
     padding: 0 4rem;
 }
 
+.nav-black {
+    background-color: #131417;
+}
+
 .center-items {
     display: flex;
     text-align: center;

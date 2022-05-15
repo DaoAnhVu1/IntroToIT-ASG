@@ -7,6 +7,10 @@
     z-index: 999;
 }
 
+#space {
+    height: 100vh;
+}
+
 .nav {
     height: 8rem;
     display: flex;
@@ -23,6 +27,31 @@
     color: #fff;
 }
 
+.banner {
+    margin-top: 0;
+    background: url('../images/film.jpg') center no-repeat;
+    background-size: cover;
+    background-position-y: 0%;
+    object-fit: contain;
+    color: #fff;
+    height: 70rem;
+    position: relative;
+}
+
+.banner-container {
+    height: 100%;
+    position: relative;
+}
+
+.banner-title {
+    position: absolute;
+    font-size: 6rem;
+    font-weight: bold;
+    top: 50%;
+    transform: translate(-50%);
+    left: 50%;
+}
+
 .tabs {
     padding-top: 1rem;
     border-bottom: 3px solid #3d3d3d;
@@ -31,7 +60,7 @@
 
 .tabs .container{
     display: grid;
-    grid-template-columns: repeat(5, 1fr);
+    grid-template-columns: repeat(3, 1fr);
     grid-gap: 1rem;
     align-items: center;
     justify-content: center;

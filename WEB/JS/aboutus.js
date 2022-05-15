@@ -1,7 +1,6 @@
 const tabItems = document.querySelectorAll('.tab-item');
 const tabContentItems = document.querySelectorAll('.tab-content-item');
 
-
 function removeBorder() {
 	tabItems.forEach(item => {
 		item.classList.remove('tab-border');

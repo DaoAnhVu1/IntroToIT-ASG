@@ -2,7 +2,6 @@ const nav = document.getElementById('nav');
 const navLinks = document.querySelectorAll('.nav .list-link');
 const menuToggleIcon = document.getElementById('menu-toggle-icon');
 
-console.log(nav)
 // Header Scroll
 window.addEventListener('scroll', () => {
     if(window.scrollY >= 500) {
