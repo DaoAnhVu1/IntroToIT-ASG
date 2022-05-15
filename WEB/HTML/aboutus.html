@@ -4,6 +4,10 @@
     <meta charset="UTF-8" />
     <meta http-equiv="X-UA-Compatible" content="IE=edge" />
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <link
+      rel="stylesheet"
+      href="https://unpkg.com/swiper@8/swiper-bundle.min.css"
+    />
     <link rel="stylesheet" href="../CSS/shared.css" />
     <link rel="stylesheet" href="../CSS/aboutus.css" />
     <link
@@ -18,7 +22,7 @@
         <a href="./index.html" class="banner-title">Fier Movies</a>
       </div>
       <div class="fade-away"></div>
-  </section>
+    </section>
     <section class="tabs section">
       <div class="container">
         <div id="tab-1" class="tab-item tab-border">
@@ -35,15 +39,37 @@
     <section class="tabs-content">
       <div class="container">
         <div id="tab-1-content" class="tab-content-item show">
+          <div class="swiper">
+            <!-- Additional required wrapper -->
+            <div class="swiper-wrapper">
+              <!-- Slides -->
+              <div class="swiper-slide">
+                <div class="slide-container">
+                  <h2 class="slide-title">Dao Anh Vu</h2>
+                </div>
+              </div>
+              <div class="swiper-slide"></div>
+              <div class="swiper-slide"></div>
+              ...
+            </div>
+            <!-- If we need pagination -->
+            <div class="swiper-pagination"></div>
+
+            <!-- If we need navigation buttons -->
+            <div class="swiper-button-prev swiper-button"></div>
+            <div class="swiper-button-next swiper-button"></div>
+
+            <!-- If we need scrollbar -->
+            <div class="swiper-scrollbar"></div>
+          </div>
         </div>
-        <div id="tab-2-content" class="tab-content-item">
-        </div>
-        <div id="tab-3-content" class="tab-content-item">
-        </div>
+        <div id="tab-2-content" class="tab-content-item"></div>
+        <div id="tab-3-content" class="tab-content-item"></div>
       </div>
       <div id="space"></div>
     </section>
-    <script src="../JS/aboutus.js"></script>
+
     <script src="https://unpkg.com/swiper@8/swiper-bundle.min.js"></script>
+    <script src="../JS/aboutus.js"></script>
   </body>
 </html>

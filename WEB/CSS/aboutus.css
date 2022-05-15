@@ -73,11 +73,39 @@
 }
 
 .tab-content-item {
+    margin-top: 3rem;
     font-size: 1.8rem;
 }
 
 .tab-border {
     border-bottom: #fff 4px solid;
+}
+
+.swiper {
+    width: 100%;
+}
+
+.swiper-slide {
+    background-color: #131417;
+    padding: 0 5rem;
+    height: 50rem;
+}
+
+.swiper-button {
+    color: white;
+}
+
+.swiper-pagination > .swiper-pagination-bullet {
+    opacity: 1;
+    border: white solid 1px;
+    background-color: transparent;
+}
+.swiper-pagination > .swiper-pagination-bullet-active {
+    background-color: white;
+}
+
+.slide-title {
+    text-align: center;
 }
 
 #tab-1-content,
