@@ -8,7 +8,7 @@
 }
 
 #space {
-    height: 100vh;
+    height: 20rem;
 }
 
 .nav {
@@ -75,6 +75,7 @@
 .tab-content-item {
     margin-top: 3rem;
     font-size: 1.8rem;
+    height: 70rem;
 }
 
 .tab-border {
@@ -83,12 +84,27 @@
 
 .swiper {
     width: 100%;
+    display: flex;
+    position: relative;
+    background: url(../images/team.jpg) center no-repeat;
+    overflow: hidden;
+    background-size: cover;
+    border-radius: 20px;
+}
+
+.swiper::after{ 
+    content: '';
+    position: absolute;
+    width: 100%;
+    height: 100%;
+    background-color: rgba(0, 0, 0, 0.8);
+    z-index: 0;
 }
 
 .swiper-slide {
-    background-color: #131417;
+    background-color: transparent;
     padding: 0 5rem;
-    height: 50rem;
+    height: 70rem;
 }
 
 .swiper-button {
@@ -107,6 +123,58 @@
 .slide-title {
     text-align: center;
 }
+
+.slide-container {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    width: 100%;
+    height: 100%;
+    padding: 2rem;
+}
+
+.group-container {
+    display: flex;
+    padding: 4rem;
+    position: relative;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    max-width: 100%;
+    text-align: center;
+    background: url(../images/group1.jpg) center no-repeat;
+    border-radius: 20px;
+    height: 70rem;
+    overflow: hidden;
+}
+
+
+
+.group-container::after {
+    content: '';
+    position: absolute;
+    width: 100%;
+    height: 100%;
+    background-color: rgba(0, 0, 0, 0.8);
+    z-index: 0;
+}
+
+.group-container-1 {
+    background: url(../images/group2.jpg) center no-repeat;
+    background-size: cover;
+}
+
+.group-content {
+    z-index: 1;
+    font-size: 2.4rem;
+    padding: 0 10rem;
+}
+
+#group-content-1 {
+    font-size: 2rem;
+}
+
 
 #tab-1-content,
 #tab-2-content,
